@@ -43,8 +43,8 @@ https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Datas
 ## Cleaned data specifications
 * <b>Variables</b>: Total of 81 variables. variables The 79 following are mean and standard values of the features recorded by the sensors.
 * First corresponds to <b>'Subjects'</b> with the range 1-30
-* First corresponds to </b>'Activities'</b> within the set/levels {WALKING, WALKING_UPSTAIRS ,WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING)}
-* Remaining 79 correspond to the features with<b> mean and standard deviation data</b> : Set {tBodyAcc-mean()-X,tBodyAcc-mean()-Y,
+* First corresponds to <b>'Activities'</b> within the set/levels {WALKING, WALKING_UPSTAIRS ,WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING)}
+* Remaining 79 correspond to the features with<b> mean and standard deviation data</b> : Set <b>{</b>tBodyAcc-mean()-X,tBodyAcc-mean()-Y,
 tBodyAcc-mean()-Z,tBodyAcc-std()-X,tBodyAcc-std()-Y,tBodyAcc-std()-Z,tGravityAcc-mean()-X,tGravityAcc-mean()-Y,
 tGravityAcc-mean()-Z,tGravityAcc-std()-X,tGravityAcc-std()-Y,tGravityAcc-std()-Z,tBodyAccJerk-mean()-X,tBodyAccJerk-mean()-Y,
 tBodyAccJerk-mean()-Z,tBodyAccJerk-std()-X,tBodyAccJerk-std()-Y,tBodyAccJerk-std()-Z,tBodyGyro-mean()-X,tBodyGyro-mean()-Y,
@@ -58,4 +58,4 @@ fBodyAccJerk-meanFreq()-Y,fBodyAccJerk-meanFreq()-Z,fBodyGyro-mean()-X,fBodyGyro
 fBodyGyro-std()-Y,fBodyGyro-std()-Z,fBodyGyro-meanFreq()-X,fBodyGyro-meanFreq()-Y,fBodyGyro-meanFreq()-Z,fBodyAccMag-mean(),
 fBodyAccMag-std(),fBodyAccMag-meanFreq(),fBodyBodyAccJerkMag-mean(),fBodyBodyAccJerkMag-std(),fBodyBodyAccJerkMag-meanFreq(),
 fBodyBodyGyroMag-mean(),fBodyBodyGyroMag-std(),fBodyBodyGyroMag-meanFreq(),fBodyBodyGyroJerkMag-mean(),fBodyBodyGyroJerkMag-std(),
-fBodyBodyGyroJerkMag-meanFreq()} 
+fBodyBodyGyroJerkMag-meanFreq()<b>}<\b> 
