@@ -5,7 +5,7 @@ http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartpho
 https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip 
 
 ## Raw Data Description
-### Raw Data Folders 
+### Raw Data Folders /Files
 * <b>Train</b>: 
 <ol>
 <li>train/X_train.txt: Training set.</li>
@@ -27,7 +27,7 @@ https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Datas
 <li>t: time</li>
 <li>f: frequency</li>
 <li>Jerk: Jerk Signals</li>
-<li>Std: Standard deviation</li
+<li>Std: Standard deviation</li>
 <li>Mean: Mean of the measurement</li>
 <li>Body: Body signals</li>
 <li>Gravity: Gravity signals</li>
