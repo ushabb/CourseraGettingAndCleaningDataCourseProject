@@ -10,27 +10,27 @@ https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Datas
 <ol>
 <li>train/X_train.txt: Training set.</li>
 <li>train/y_train.txt: Training labels. </li>
-<li><b>Subject_train.txt : Index of Subjects per observation </li>
+<li>Subject_train.txt : Index of Subjects per observation </li>
 </ol>
 
 * <b>Test</b>: 
 <ol>
-<li><b>test/X_test.txt: Test set.</li>
-<li><b>test/y_test.txt: Test labels.</li></li>
-<li><b>subject_test.txt : Index of Subjects per observation  </li>
+<li>test/X_test.txt: Test set.</li>
+<li>test/y_test.txt: Test labels.</li></li>
+<li>subject_test.txt : Index of Subjects per observation  </li>
 </ol>
 
 * <b>Features.txt</b>: List of features - some acronyms are used as follows alonf three 'X', 'Y', 'Z' axis:
 <ol>
-<li><b>Mag: Magnitude</li>
-<li><b>Gyro: Gyroscope</li></li>
-<li><b>t: time</li>
-<li><b>f: frequency</li>
-<li><b>Jerk: Jerk Signals</li>
-<li><b>Std: Standard deviation</li
-<li><b>Mean: Mean of the measurement</li>
-<li><b>Body: Body signals</li>
-<li><b>Gravity: Gravity signals</li>
+<li>Mag: Magnitude</li>
+<li>Gyro: Gyroscope</li></li>
+<li>t: time</li>
+<li>f: frequency</li>
+<li>Jerk: Jerk Signals</li>
+<li>Std: Standard deviation</li
+<li>Mean: Mean of the measurement</li>
+<li>Body: Body signals</li>
+<li>Gravity: Gravity signals</li>
 </ol>
 
 
@@ -42,9 +42,9 @@ https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Datas
 
 ## Cleaned data specifications
 * <b>Variables</b>: Total of 81 variables. variables The 79 following are mean and standard values of the features recorded by the sensors.
-* <b></b>First corresponds to 'Subjects' with the range 1-30
-* <b></b>First corresponds to 'Activities' within the set/levels {WALKING, WALKING_UPSTAIRS ,WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING)}
-* <b></b>Remaining 79 correspond to the features with mean and standard deviation data : Set {tBodyAcc-mean()-X,tBodyAcc-mean()-Y,
+* First corresponds to <b>'Subjects'</b> with the range 1-30
+* First corresponds to </b>'Activities'</b> within the set/levels {WALKING, WALKING_UPSTAIRS ,WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING)}
+* Remaining 79 correspond to the features with<b> mean and standard deviation data</b> : Set {tBodyAcc-mean()-X,tBodyAcc-mean()-Y,
 tBodyAcc-mean()-Z,tBodyAcc-std()-X,tBodyAcc-std()-Y,tBodyAcc-std()-Z,tGravityAcc-mean()-X,tGravityAcc-mean()-Y,
 tGravityAcc-mean()-Z,tGravityAcc-std()-X,tGravityAcc-std()-Y,tGravityAcc-std()-Z,tBodyAccJerk-mean()-X,tBodyAccJerk-mean()-Y,
 tBodyAccJerk-mean()-Z,tBodyAccJerk-std()-X,tBodyAccJerk-std()-Y,tBodyAccJerk-std()-Z,tBodyGyro-mean()-X,tBodyGyro-mean()-Y,
